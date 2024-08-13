@@ -11,6 +11,7 @@
     align-items: center;
     gap: 1rem;
     margin-top: 2rem;
+    user-select: none;
 }
 
 .hero__subtitle{
@@ -30,6 +31,7 @@
 .hero__description{
     max-width: 60ch;
     font-size: var(--size-sm);
+    user-select: all;
 }
 
 .hero__btn{
